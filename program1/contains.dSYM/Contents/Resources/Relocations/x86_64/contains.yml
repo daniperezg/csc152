@@ -1,0 +1,9 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     contains
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _is_equal, symObjAddr: 0x0, symBinAddr: 0x100000980, symSize: 0x70 }
+  - { offsetInCU: 0x52, offset: 0x52, size: 0x8, addend: 0x0, symName: _is_equal, symObjAddr: 0x0, symBinAddr: 0x100000980, symSize: 0x70 }
+  - { offsetInCU: 0xB2, offset: 0xB2, size: 0x8, addend: 0x0, symName: _contains, symObjAddr: 0x70, symBinAddr: 0x1000009F0, symSize: 0xC0 }
+  - { offsetInCU: 0x13C, offset: 0x13C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x130, symBinAddr: 0x100000AB0, symSize: 0x33B }
+...
